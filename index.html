@@ -92,7 +92,9 @@ section{padding:clamp(64px,10vw,124px) 0}
 /* ---------- первый экран ---------- */
 .hero{padding-top:clamp(44px,6vw,80px);padding-bottom:clamp(44px,6vw,76px)}
 .hero__grid{display:grid;gap:clamp(32px,5vw,56px);align-items:center}
-@media(min-width:920px){.hero__grid{grid-template-columns:1.05fr .95fr}}
+@media(min-width:920px){
+  .hero__grid{grid-template-columns:1.05fr .95fr}
+}
 .hero h1{margin-bottom:22px}
 .hero h1 em{font-style:italic;color:var(--sun)}
 .hero__cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
